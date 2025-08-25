@@ -1,0 +1,920 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>نمایشگاه هنر - گالری آثار هنری</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+  <link rel="stylesheet" href="honariran.css" />
+</head>
+<body>
+  <!--sidebar section-->
+
+<div id="page1">
+  <div class="sidebar">
+  <div class="menu-top">
+    <i class="fas fa-ellipsis-h dots-icon"></i>
+  </div>
+    <div class="divider"></div> 
+  <ul class="menu-items">
+    <li>
+      <i class="fas fa-user-circle"></i>
+      <span class="tooltip">پروفایل</span>
+    </li>
+    <li>
+      <i class="fas fa-home"></i>
+      <span class="tooltip">خانه</span>
+    </li>
+    <li>
+      <i class="fas fa-palette"></i>
+      <span class="tooltip">هنرها</span>
+    </li>
+     <li>
+      <i class="fas fa-globe"></i>
+      <span class="tooltip">نقشه جهان</span>
+    </li>
+    <li>
+      <i class="fas fa-headset"></i>
+      <span class="tooltip">پشتیبانی</span>
+    </li>
+     <li>
+      <i class="fas fa-bookmark"></i>
+      <span class="tooltip">علاقه‌مندی</span>
+    </li>
+    <li>
+      <i class="fas fa-shopping-cart"></i>
+      <span class="tooltip">سبد خرید</span>
+    </li>
+    <li>
+      <i class="fas fa-question-circle"></i>
+      <span class="tooltip">راهنما</span>
+    </li>
+    <li>
+      <i class="fas fa-share-alt"></i>
+      <span class="tooltip">اشتراک‌گذاری</span>
+    </li>
+    <li class="last">
+      <i class="fas fa-cog"></i>
+      <span class="tooltip">تنظیمات</span>
+    </li>
+    <li class="last-item">
+      <i class="far fa-question-circle"></i>
+    <span class="tooltip">راهنما</span>
+   </li>
+  </ul>
+</div>
+
+<!--topbar section-->
+
+<header class="top-bar">
+  <div class="container">
+    <span class="text">
+      <i class="fas fa-bell bell-icon"></i> 
+    <span class="announcement">اطلاعیه‌ها</span> 
+      <i class="fas fa-chevron-left arrow-icon"></i> 
+    <span class="rotating-text">
+    <span>نحوه دریافت شناسنامه دائمی اثر هنری و صنایع دستی</span>
+    <span>آنچه برای صادرات صنایع دستی، آثار هنری باید بدانیم!</span>
+    </span>
+    </span>
+        <div class="top-links">
+          <a href="#">قوانین</a>
+          <div class="link-separator"></div>
+          <a href="#">درباره ما</a> 
+          <div class="link-separator"></div>
+          <a href="#">تماس با ما</a> 
+          <div class="link-separator"></div>
+          <a href="#" >نصب اپلیکیشن</a>
+          <a href="#" class="english-link">
+          English<i class="fas fa-globe"></i></a> 
+        </div>
+      </div>
+</header>
+<!--Secondbar section-->
+
+<div class="second-bar">
+  <div class="container">
+    <div class="right-items">
+      <span class="item">
+        <i class="fas fa-book-open lamp-icon"></i>
+        شیوه‌های خرید
+      </span>
+      <div class="vertical-line"></div>
+      <span class="item">نحوه فروشندگی</span>
+      <div class="vertical-line"></div>
+      <span class="item">سوالات متداول</span>
+    </div>
+    <div class="left-items">
+      <span class="item">اصالت سنجی</span>
+      <div class="vertical-line"></div>
+      <span class="item">کارشناسی قیمت</span>
+      <div class="vertical-line"></div>
+      <span class="item">
+        NFT
+       <i class="fas fa-shopping-cart heart-icon"></i>
+      </span>
+    </div>
+  </div>
+</div>
+<!--main-nav section-->
+
+<nav class="main-nav">
+  <div class="container nav-container">
+    <div class="right-section">
+      <button class="right-button">  
+        <i class="fas fa-th-large"></i>دسته بندی آثار
+      </button>
+        <ul class="nav-links">
+          <li><a href="#">صفحه نخست</a></li>
+          <li><a href="#">هنرمندان</a></li>
+          <li><a href="#">برگزیده‌ها</a></li>
+          <li><a href="#">خدمات</a></li>
+        </ul>
+      </div>
+        <div class="logo">
+          <img src="/img/49.jpg" alt="لوگو" />
+          <div class="dropdown-menu">
+            <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="mailto:your-email@example.com" target="_blank" title="ایمیل"><i class="fas fa-envelope"></i></a>
+            <a href="https://facebook.com" target="_blank" title="فیسبوک"><i class="fab fa-facebook-f"></i></a>
+          </div>
+        </div>
+        <div class="left-section">
+          <ul class="nav-links">
+            <li><a href="#">مجله آموزشی</a></li>
+            <li><a href="#">حامیان</a></li>
+            <li><a href="#">پشتیبانی</a></li>
+            <li><a href="#">تبلیغات</a></li>
+          </ul>
+          <button class="left-button">
+            ثبت اثر/ طرح<i class="fas fa-plus"></i></button>
+       </div>
+  </div>
+</nav>
+<!--hero section-->
+
+<section class="hero">
+  <div class="overlay">
+    <h1>جستجو در آثار و طرح‌های هنری هنرمندان ایران</h1>
+    <p>ثبت رایگان و فروش بدون واسطه آثار هنری و صنایع دستی</p>
+
+    <div class="search-box-wrapper">
+      <div class="search-box-text">جستجو در همه طرح‌ها و آثار</div>
+      <div class="vertical-line"></div>
+      <div class="select-wrapper">
+        <select class="location-select">
+          <option value="" disabled selected hidden>استان / منطقه</option>
+          <option>تهران</option>
+          <option>اصفهان</option>
+          <option>شیراز</option>
+        </select>
+          <i class="fas fa-caret-down icon"></i>
+      </div>
+  <div class="vertical-line"></div> 
+
+  <div class="select-wrapper">
+    <select class="category-select">
+      <option value="" disabled selected hidden>همه گروه‌های هنری</option>
+      <option>هنرهای تجسمی</option>
+      <option>صنایع دستی</option>
+      <option>گرافیک دیجیتال</option>
+    </select>
+      <i class="fas fa-caret-down icon"></i>
+  </div>
+
+    <button class="search-btn">
+      <i class="fas fa-search"></i>
+    </button>
+    </div>
+
+    <div class="search-highlights">
+      <div class="highlight">
+        <i class="fas fa-search"></i>
+        <span>تذهیب</span>
+      </div>
+        <div class="highlight">
+          <i class="fas fa-search"></i>
+          <span>تابلو فرش</span>
+        </div>
+        <div class="highlight">
+          <i class="fas fa-search"></i>
+          <span>خوشنویسی</span>
+        </div>
+        <div class="highlight">
+          <i class="fas fa-search"></i>
+          <span>دیوارکوب</span>
+        </div>
+    </div>
+
+    <div class="categories">
+      <div class="cat">
+        <img src="/img/48.jpg" alt="هنرهای تجسمی">
+        <p>هنرهای تجسمی</p>
+        
+    <ul class="cat-list">
+      <li>نقاشی</li>
+      <li>خوشنویسی</li>
+      <li>مجسمه سازی</li>
+      <li>نگارگری/ مینیاتور</li>
+      <li class="view-all"><button>مشاهده همه آثار</button></li>
+    </ul>
+      </div>
+
+      <div class="cat">
+        <img src="/img/47.jpg" alt="صنایع دستی">
+        <p>صنایع دستی</p>
+
+    <ul class="cat-list">
+      <li>محصولات صنایع دستی</li>
+      <li>تابلو فرش</li>
+      <li>مجسمه دکوراتیو</li>
+      <li class="view-all"><button>مشاهده همه آثار</button></li>
+    </ul>
+      </div>
+
+      <div class="cat">
+        <img src="/img/46.jpg" alt="گرافیک دیجیتال">
+        <p>گرافیک دیجیتال</p>
+
+    <ul class="cat-list">
+      <li>طرح های حرفه ای</li>
+      <li>رنگ آمیزی کودکان</li>
+      <li>منو رستوران  </li>
+      <li class="view-all"><button>مشاهده همه آثار</button></li>
+    </ul>
+      </div>
+
+      <div class="cat">
+        <img src="/img/45.jpg" alt="عکس / تصویر">
+        <p>عکس / تصویر</p>
+        
+    <ul class="cat-list">
+      <li>عکاسی حرفه ای</li>
+      <li>بک دراپ و بک گراند</li>
+      <li>عکاسی منظره</li>
+      <li class="view-all"><button>مشاهده همه آثار</button></li>
+    </ul>
+      </div>
+    </div>
+  </div>
+</section>
+<!--blue bar section-->
+
+  <div class="blue-bar"></div>
+    <div class="info-bar">
+      <div class="info-text">کسب درآمد پایدار با ثبت رایگان و فروش آثار و طرح های شما ...</div>
+      <div class="info-button">
+        <button class="register-btn">ثبت نام رایگان</button>
+      </div>
+    </div>
+  <div class="white-bar"></div>
+<!--slider section-->
+
+<div class="contain">
+  <div class="side-boxes">
+    <div class="box">
+      <img src="/img/2.jpg" />
+    </div>
+      <div class="box">
+        <img src="/img/4.jpg" />
+      </div>
+      <div class="box">
+        <img src="/img/1.jpg" />
+      </div>
+      </div>
+      <div class="swiper1">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"><img src="/img/80.jpg" /></div>
+          <div class="swiper-slide"><img src="/img/84.jpg" /></div>
+          <div class="swiper-slide"><img src="/img/82.jpg" /></div>
+          <div class="swiper-slide"><img src="/img/83.jpg" /></div>
+          <div class="swiper-slide"><img src="img/81.jpg" /></div>
+          <div class="swiper-slide"><img src="/img/85.jpg" /></div>
+        </div>
+
+        <div class="swiper-button-prev swiper-button-prev-1"></div>
+        <div class="swiper-button-next swiper-button-next-1"></div>
+        <div class="swiper-pagination-1"></div>
+      </div>
+    
+      <div class="side-boxes">
+        <div class="box">
+          <img src="/img/1.jpg" />
+        </div>
+        <div class="box">
+          <img src="/img/5.jpg" />
+        </div>
+        <div class="box">
+          <img src="/img/6.jpg" />
+        </div>
+      </div>
+</div>
+</div>
+
+  <div id="page2">
+  <!-- ===== گالری اول ===== -->
+  <div class="gallery-container">
+    <section class="gallery-section" style="background-color: #007b8a;">
+      <div class="side-banner">
+        <div class="banner-text">
+          <h3>آثار هنرمندان</h3>
+          <p>هنرهای تجسمی</p>
+        </div>
+        <img src="/img/8.png" alt="هنر تجسمی" />
+        <button class="sidebanner-btn">نمایش همه آثار</button>
+      </div>
+
+      <div class="swiper mySwiper5">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide art-card">
+            <div class="badge">اثر ویژه</div>
+            <div class="img-wrapper">
+              <img src="/img/20-07-2025-19-07-55-artwork-300x300.jpg" alt="۱ اثر" />
+              <div class="price">۷۰۰,۰۰۰ تومان</div>
+            </div>
+            <div class="location"><i class="fa fa-map-marker-alt"></i> تهران</div>
+            <div class="views-save-wrapper">
+              <div class="views">۱۵۳ بازدید</div>
+              <div class="save-icon">
+                <i class="fa-regular fa-bookmark"></i>
+              </div>
+            </div>
+            <h4 class="title">تابلو سیاه قلم طراحی</h4>
+          </div>
+
+          <div class="swiper-slide art-card">
+            <div class="badge">اثر ویژه</div>
+            <div class="img-wrapper">
+              <img src="/img/20-07-2025-11-07-55-artwork-300x300.jpg" alt="۱ اثر" />
+              <div class="price">۱,۰۰۰,۰۰۰ تومان</div>
+            </div>
+            <div class="location"><i class="fa fa-map-marker-alt"></i> تهران</div>
+            <div class="views-save-wrapper">
+              <div class="views">۱۵۳ بازدید</div>
+              <div class="save-icon">
+                <i class="fa-regular fa-bookmark"></i>
+              </div>
+            </div>
+            <h4 class="title">نقاشی معصوم</h4>
+          </div>
+
+          <div class="swiper-slide art-card">
+            <div class="badge">اثر ویژه</div>
+            <div class="img-wrapper">
+              <img src="/img/7.jpg" alt="اثر ۲" />
+              <div class="price">۱,۰۰۰,۰۰۰ تومان</div>
+            </div>
+            <div class="location"><i class="fa fa-map-marker-alt"></i> تهران</div>
+            <div class="views-save-wrapper">
+              <div class="views">۱۵۳ بازدید</div>
+              <div class="save-icon">
+                <i class="fa-regular fa-bookmark"></i>
+              </div>
+            </div>
+            <h4 class="title">نقاشی فریاد بی صدا</h4>
+          </div>
+
+          <div class="swiper-slide art-card">
+            <div class="badge">اثر ویژه</div>
+            <div class="img-wrapper">
+              <img src="/img/08-07-2025-13-07-23-artwork-300x300.jpg" alt="اثر ۲" />
+              <div class="price">۱,۰۰۰,۰۰۰ تومان</div>
+            </div>
+            <div class="location"><i class="fa fa-map-marker-alt"></i> تهران</div>
+            <div class="views-save-wrapper">
+              <div class="views">۱۵۳ بازدید</div>
+              <div class="save-icon">
+                <i class="fa-regular fa-bookmark"></i>
+              </div>
+            </div>
+            <h4 class="title">پژواک</h4>
+        </div>
+
+          <div class="swiper-slide art-card">
+            <div class="badge">اثر ویژه</div>
+            <div class="img-wrapper">
+              <img src="/img/21-07-2025-07-07-19-artwork-300x300.jpg" alt="اثر ۲" />
+              <div class="price">۱,۰۰۰,۰۰۰ تومان</div>
+            </div>
+            <div class="location"><i class="fa fa-map-marker-alt"></i> تهران</div>
+            <div class="views-save-wrapper">
+              <div class="views">۱۵۳ بازدید</div>
+              <div class="save-icon">
+                <i class="fa-regular fa-bookmark"></i>
+              </div>
+            </div>
+            <h4 class="title">سیاه قلم پرتره</h4>
+          </div>
+
+        </div>
+          <div class="swiper-button-next swiper-button-next-5"></div>
+        <div class="swiper-button-prev swiper-button-prev-5"></div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <!-- ===== گالری دوم ===== -->
+  <div class="gallery-container">
+    <section class="gallery-section" style="background-color:#fff;">
+      <div class="side-banner">
+        <div class="banner-text">
+          <h3 class="black">آثار و محصولات هنرمندان</h3>
+          <p>صنایع دستی</p>
+        </div>
+        <img src="/img/hand-job.png" alt="گالری دوم" />
+        <button class="sidebanner-btn">نمایش همه آثار</button>
+      </div>
+      <div class="swiper mySwiper2">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide art-card">
+            <div class="badge">اثر ویژه</div>
+            <div class="img-wrapper">
+              <img src="/project/12-06-2025-12-06-52-artwork-300x300.jpg" alt="۱ اثر" />
+              <div class="price">۷۰۰,۰۰۰ تومان</div>
+            </div>
+            <div class="location"><i class="fa fa-map-marker-alt"></i>البرز</div>
+            <div class="views-save-wrapper">
+              <div class="views">۱۵۳ بازدید</div>
+              <div class="save-icon">
+                <i class="fa-regular fa-bookmark"></i>
+              </div>
+            </div>
+            <h4 class="title">تابلو خلیج فارس</h4>
+          </div>
+          <div class="swiper-slide art-card">
+            <div class="badge">اثر ویژه</div>
+            <div class="img-wrapper">
+              <img src="/img/0bb49472920035b8f5308b268d422164_zzz-1-300x300.jpg" alt="۱ اثر" />
+              <div class="price">۱,۰۰۰,۰۰۰ تومان</div>
+            </div>
+            <div class="location"><i class="fa fa-map-marker-alt"></i>گیلان</div>
+            <div class="views-save-wrapper">
+              <div class="views">۱۵۳ بازدید</div>
+              <div class="save-icon">
+                <i class="fa-regular fa-bookmark"></i>
+              </div>
+            </div>
+            <h4 class="title">حوضچه جاودان رزینی</h4>
+          </div>
+          <div class="swiper-slide art-card">
+            <div class="badge">اثر ویژه</div>
+            <div class="img-wrapper">
+              <img src="/img/29-01-2025-22-01-42-artwork-300x300.jpg" alt="اثر ۲" />
+              <div class="price">۱,۰۰۰,۰۰۰ تومان</div>
+            </div>
+            <div class="location"><i class="fa fa-map-marker-alt"></i> تهران</div>
+            <div class="views-save-wrapper">
+              <div class="views">۱۵۳ بازدید</div>
+              <div class="save-icon">
+                <i class="fa-regular fa-bookmark"></i>
+              </div>
+            </div>
+            <h4 class="title">ظرف دکوری سنگی</h4>
+          </div>
+          <div class="swiper-slide art-card">
+            <div class="badge">اثر ویژه</div>
+            <div class="img-wrapper">
+              <img src="/img/17-08-2025-14-08-12-artwork-300x300.jpg" alt="اثر ۲" />
+              <div class="price">۱,۰۰۰,۰۰۰ تومان</div>
+            </div>
+            <div class="location"><i class="fa fa-map-marker-alt"></i>البرز</div>
+            <div class="views-save-wrapper">
+              <div class="views">۱۵۳ بازدید</div>
+              <div class="save-icon">
+                <i class="fa-regular fa-bookmark"></i>
+              </div>
+            </div>
+            <h4 class="title">گردنبند میکرومکرومه</h4>
+          </div>
+          <div class="swiper-slide art-card">
+            <div class="badge">اثر ویژه</div>
+            <div class="img-wrapper">
+              <img src="/img/22-06-2025-10-06-49-artwork-300x300.jpg" alt="اثر ۲" />
+              <div class="price">۱,۰۰۰,۰۰۰ تومان</div>
+            </div>
+            <div class="location"><i class="fa fa-map-marker-alt"></i> خراسان رضوی</div>
+            <div class="views-save-wrapper">
+              <div class="views">۱۵۳ بازدید</div>
+              <div class="save-icon">
+                <i class="fa-regular fa-bookmark"></i>
+              </div>
+            </div>
+            <h4 class="title">کفش چاروق</h4>
+          </div>
+        </div>
+          <div class="swiper-button-next swiper-button-next-2"></div>
+        <div class="swiper-button-prev swiper-button-prev-2"></div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <!-- ===== گالری سوم ===== -->
+  <div class="gallery-container">
+    <section class="gallery-section" style="background-color:#007b8a;">
+      <div class="side-banner">
+        <div class="banner-text">
+          <h3>آثار و طرح‌های هنرمندان</h3>
+          <p>گرافیک دیجیتال</p>
+        </div>
+        <img src="/img/graphic-q7ph9oowz0bqwe80rtp2oi71hk10xg3km53vwp63ak (2).png" alt="گالری سوم" />
+        <button class="sidebanner-btn">نمایش همه طرح‌ها</button>
+      </div>
+      <div class="swiper mySwiper3">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide art-card">
+            <div class="badge">اثر ویژه</div>
+            <div class="img-wrapper">
+              <img src="/img/25-05-2025-19-05-14-artwork-300x300.jpg" alt="۱ اثر" />
+              <div class="price">۷۰۰,۰۰۰ تومان</div>
+            </div>
+            <div class="views-save-wrapper">
+              <div class="views">۱۵۳ بازدید</div>
+              <div class="save-icon">
+                <i class="fa-regular fa-bookmark"></i>
+              </div>
+            </div>
+            <h4 class="title">پوستر لایه باز تبلیغاتی</h4>
+          </div>
+          <div class="swiper-slide art-card">
+            <div class="badge">اثر ویژه</div>
+            <div class="img-wrapper">
+              <img src="/img/17-05-2025-06-05-39-artwork-300x300.jpg" alt="۱ اثر" />
+              <div class="price">۱,۰۰۰,۰۰۰ تومان</div>
+            </div>
+            <div class="views-save-wrapper">
+              <div class="views">۱۵۳ بازدید</div>
+              <div class="save-icon">
+                <i class="fa-regular fa-bookmark"></i>
+              </div>
+            </div>
+            <h4 class="title">فایل لایه باز برگ سهام</h4>
+          </div>
+          <div class="swiper-slide art-card">
+            <div class="badge">اثر ویژه</div>
+            <div class="img-wrapper">
+              <img src="/img/12-02-2025-17-02-30-artwork-300x300.jpg" alt="اثر ۲" />
+              <div class="price">۱,۰۰۰,۰۰۰ تومان</div>
+            </div>
+            <div class="views-save-wrapper">
+              <div class="views">۱۵۳ بازدید</div>
+              <div class="save-icon">
+                <i class="fa-regular fa-bookmark"></i>
+              </div>
+            </div>
+            <h4 class="title">لطافت ظاهری</h4>
+          </div>
+          <div class="swiper-slide art-card">
+            <div class="badge">اثر ویژه</div>
+            <div class="img-wrapper">
+              <img src="/img/16-08-2025-10-08-24-artwork-300x300.jpg" alt="اثر ۲" />
+              <div class="price">۱,۰۰۰,۰۰۰ تومان</div>
+            </div>
+            <div class="views-save-wrapper">
+              <div class="views">۱۵۳ بازدید</div>
+              <div class="save-icon">
+                <i class="fa-regular fa-bookmark"></i>
+              </div>
+            </div>
+            <h4 class="title">فایل لایه باز جلد کتاب آهوی مهربون</h4>
+          </div>
+          <div class="swiper-slide art-card">
+            <div class="badge">اثر ویژه</div>
+            <div class="img-wrapper">
+              <img src="/img/15-08-2025-07-08-12-artwork-300x300.jpg" alt="اثر ۲" />
+              <div class="price">۱,۰۰۰,۰۰۰ تومان</div>
+            </div>
+            <div class="location"><i class="fa fa-map-marker-alt"></i> تهران</div>
+            <div class="views-save-wrapper">
+              <div class="views">۱۵۳ بازدید</div>
+              <div class="save-icon">
+                <i class="fa-regular fa-bookmark"></i>
+              </div>
+            </div>
+            <h4 class="title">دل خون و انار</h4>
+          </div>
+        </div>
+        <div class="swiper-button-next swiper-button-next-3"></div>
+        <div class="swiper-button-prev swiper-button-prev-3"></div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <!-- ===== گالری چهارم ===== -->
+  <div class="gallery-container">
+    <section class="gallery-section" style="background-color:#fff;">
+      <div class="side-banner">
+        <div class="banner-text">
+          <h3>آثار هنرمندان عکاس</h3>
+          <p>عکس و فتوگرافی</p>
+        </div>
+        <img src="/img/8.png" alt="گالری چهارم" />
+        <button class="sidebanner-btn">نمایش همه آثار</button>
+      </div>
+      <div class="swiper mySwiper4">
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide art-card">
+            <div class="badge">اثر ویژه</div>
+            <div class="img-wrapper">
+              <img src="/img/bba781947d6b3a33f57b4789889cba51_zzz-1-300x300.jpg" alt="۱ اثر" />
+              <div class="price">۷۰۰,۰۰۰ تومان</div>
+            </div>
+            <div class="views-save-wrapper">
+              <div class="views">۱۵۳ بازدید</div>
+              <div class="save-icon">
+                <i class="fa-regular fa-bookmark"></i>
+              </div>
+            </div>
+            <h4 class="title">قطعه عکس از شکوفه‌های بهاری صورتی</h4>
+          </div>
+
+          <div class="swiper-slide art-card">
+            <div class="badge">اثر ویژه</div>
+            <div class="img-wrapper">
+              <img src="/img/27-02-2025-14-02-58-artwork-300x300.jpeg" alt="۱ اثر" />
+              <div class="price">۱,۰۰۰,۰۰۰ تومان</div>
+            </div>
+            <div class="views-save-wrapper">
+              <div class="views">۱۵۳ بازدید</div>
+              <div class="save-icon">
+                <i class="fa-regular fa-bookmark"></i>
+              </div>
+            </div>
+            <h4 class="title">قطعه عکس فرشینه</h4>
+          </div>
+
+          <div class="swiper-slide art-card">
+            <div class="badge">اثر ویژه</div>
+            <div class="img-wrapper">
+              <img src="/img/17-02-2025-10-02-21-artwork-300x300.jpg" alt="اثر ۲" />
+              <div class="price">۱,۰۰۰,۰۰۰ تومان</div>
+            </div>
+            <div class="views-save-wrapper">
+              <div class="views">۱۵۳ بازدید</div>
+              <div class="save-icon">
+                <i class="fa-regular fa-bookmark"></i>
+              </div>
+            </div>
+            <h4 class="title">قطعه عکس طبیعت</h4>
+          </div>
+
+          <div class="swiper-slide art-card">
+            <div class="badge">اثر ویژه</div>
+            <div class="img-wrapper">
+              <img src="/img/15-05-2025-15-05-17-artwork-300x300.jpg" alt="اثر ۲" />
+              <div class="price">۱,۰۰۰,۰۰۰ تومان</div>
+            </div>
+            <div class="views-save-wrapper">
+              <div class="views">۱۵۳ بازدید</div>
+              <div class="save-icon">
+                <i class="fa-regular fa-bookmark"></i>
+              </div>
+            </div>
+            <h4 class="title">قطعه عکس شهر مرده</h4>
+          </div>
+          <div class="swiper-slide art-card">
+            <div class="badge">اثر ویژه</div>
+            <div class="img-wrapper">
+              <img src="/img/c1b0bc217178f9efce7523c53d79ecfe_zzz-1-300x300.jpg" alt="اثر ۲" />
+              <div class="price">۱,۰۰۰,۰۰۰ تومان</div>
+            </div>
+            <div class="views-save-wrapper">
+              <div class="views">۱۵۳ بازدید</div>
+              <div class="save-icon">
+                <i class="fa-regular fa-bookmark"></i>
+              </div>
+            </div>
+            <h4 class="title">عکس سیمرغ در کنار پرچم ایران</h4>
+          </div>
+
+        </div>
+        <div class="swiper-button-next swiper-button-next-4"></div>
+        <div class="swiper-button-prev swiper-button-prev-4"></div>
+        </div>
+      </div>
+    </section>
+  </div>
+</div>
+
+<div class="swiper mySwiper6">
+  <div class="swiper-wrapper">
+
+    <div class="swiper-slide">
+      <div class="slide-content">
+        <img src="/img/Annotation 2025-08-15 204358.png" alt="عکس ۱">
+        <div class="text-overlay">مجموعه عکس نگاه نو اثر احمد بیاتی روایتی مستند از زیبایی‌های نادیده</div>
+      </div>
+    </div>
+
+    <div class="swiper-slide">
+      <div class="slide-content">
+        <img src="/img/Annotation 2025-08-19 212812.png" alt="عکس ۲">
+        <div class="text-overlay">تشخیص یاقوت اصل در خانه</div>
+      </div>
+    </div>
+
+    <div class="swiper-slide">
+      <div class="slide-content">
+        <img src="/img/Annotation 2025-08-19 212920.png" alt="عکس ۳">
+        <div class="text-overlay">بهترین آموزشگاه موسیقی کودکان در غرب تهران</div>
+      </div>
+    </div>
+
+    <div class="swiper-slide">
+      <div class="slide-content">
+        <img src="/img/Annotation 2025-08-19 213006.png" alt="عکس ۴">
+        <div class="text-overlay">NFTها بیت کوین در صنعت هنر و سرگرمی</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="swiper-button-next swiper-button-next-6"></div>
+  <div class="swiper-button-prev swiper-button-prev-6"></div>
+   <div class="swiper-pagination swiper-pagination-6"></div>
+</div>
+<!--footer section-->
+
+<div class="footer">
+  <div class="footer-top">
+    <div class="app-links">
+      <a href="#"><img src="/img/direct.png" alt="دانلود مستقیم اندروید"></a>
+      <a href="#"><img src="/img/app-Pwa.jpg" alt="وب اپلیکیشن iOS"></a>
+      <a href="#"><img src="/img/Annotation 2025-08-19 221003.png" alt="لندووس"></a>
+      <a href="#"><img src="/img/Annotation 2025-08-19 221059.png" alt="آی دی پی"></a>
+      <a href="#" class="more-link">
+      <i class="fas fa-ellipsis-h"></i>
+      </a>
+    </div>
+
+    <div class="footer-title-box">
+      <img src="/img/logo-honarIran-without-name.png" alt="لوگو" class="footer-title-icon">
+      <h3 class="footer-title">اپلیکیشن نمایشگاه هنر ایران</h3>
+    </div>
+  </div>
+
+  <div class="footer-content">
+   <div class="footer-certificates">
+  <div class="cert-row">
+    <div class="certificate">
+      <img src="img/samandehi.png" alt="نماد ساماندهی">
+    </div>
+    <div class="certificate">
+      <img src="img/enamad.png" alt="نماد اعتماد">
+    </div>
+  </div>
+  <p class="vpn-msg">برای نمایش نمادها VPN باید قطع باشد.</p>
+</div>
+
+
+    <div class="footer-description">
+      <h4>نمایشگاه هنر ایران</h4>
+      <p class="desc-text">
+      نمایشگاه آثار هنرمندان و طراحان گرافیک هنر ایران با امکان ثبت رایگان اثر بر مبنای ایجاد ارزش افزوده ویژه هنرمندان، فعالان حوزه صنایع دستی و طراحان گرافیست در زمینه<br> های گرافیک دیجتال، عکس، نقاشی، صنایع دستی،
+       کاریکاتور، مجسمه سازی، نگارگری، خوشنویسی، نقاشی خط و ... بنا نهاده شده است. در نیازمندی های آنلاین و رایگان هنر<br> و صنایع دستی کشور می توانید علاوه بر ثبت رایگان و فروش آثار و طرح های خود به انجام سفارش های اختصاصی بر مبنای آن بپردازید. دارای مجوز از مرکز توسعه فرهنگ<br> و هنر در فضای مجازی | کد شامد: 1-1-691455-63-0-6 
+      </p>
+    </div>
+  </div>
+  <div class="footer-text">
+   <p>
+        © حق تألیف و نشر نزد نمایشگاه هنر ایران محفوظ است.
+        طراحی و اجرا: آپیدو
+      </p> 
+  </div>
+</footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script>
+    // اسلایدر اول
+    const swiper1 = new Swiper(".swiper1", {
+      loop: true,
+      slidesPerView: 1,
+      spaceBetween: 10,
+      direction: "horizontal",
+      navigation: {
+        nextEl: ".swiper-button-next-1",
+        prevEl: ".swiper-button-prev-1",
+      },
+      pagination: {
+        el: ".swiper-pagination-1",
+        clickable: true,
+      },
+    });
+
+
+  const swiper5 = new Swiper(".mySwiper5", {
+  rtl: true,
+  loop: true,
+  slidesPerView: 4,
+  spaceBetween: 30,
+  navigation: {
+    nextEl: ".swiper-button-next-5",
+    prevEl: ".swiper-button-prev-5",
+  },
+  breakpoints: {
+    768: { slidesPerView: 4 },
+    480: { slidesPerView: 2 },
+  },
+});
+
+const swiper2 = new Swiper(".mySwiper2", {
+  rtl: true,
+  loop: true,
+  slidesPerView: 4,
+  spaceBetween: 30,
+  navigation: {
+    nextEl: ".swiper-button-next-2",
+    prevEl: ".swiper-button-prev-2",
+  },
+  breakpoints: {
+    768: { slidesPerView: 4 },
+    480: { slidesPerView: 2 },
+  },
+});
+
+const swiper3 = new Swiper(".mySwiper3", {
+  rtl: true,
+  loop: true,
+  slidesPerView: 4,
+  spaceBetween: 30,
+  navigation: {
+    nextEl: ".swiper-button-next-3",
+    prevEl: ".swiper-button-prev-3",
+  },
+  breakpoints: {
+    768: { slidesPerView: 4 },
+    480: { slidesPerView: 2 },
+  },
+});
+
+const swiper4 = new Swiper(".mySwiper4", {
+  rtl: true,
+  loop: true,
+  slidesPerView: 4,
+  spaceBetween: 30,
+  navigation: {
+    nextEl: ".swiper-button-next-4",
+    prevEl: ".swiper-button-prev-4",
+  },
+  breakpoints: {
+    768: { slidesPerView: 4 },
+    480: { slidesPerView: 2 },
+  },
+});
+
+const swiper6 = new Swiper(".mySwiper6", {
+  rtl: true,
+  loop: true,
+  slidesPerView: 2,
+  spaceBetween: 20,
+
+  autoplay: {
+    delay: 3000,   
+    disableOnInteraction: false, 
+  },
+
+  navigation: {
+    nextEl: ".swiper-button-next-6",
+    prevEl: ".swiper-button-prev-6",
+  },
+
+  // pagination
+  pagination: {
+    el: ".swiper-pagination-6",
+    clickable: true,
+    type: "bullets",
+  },
+
+  breakpoints: {
+    768: {
+      slidesPerView: 2,
+    },
+    480: {
+      slidesPerView: 1,
+    },
+  },
+
+  slidesPerGroup: Math.ceil(document.querySelectorAll('.mySwiper6 .swiper-slide').length / 2),
+});
+
+//logo section
+
+  window.addEventListener("scroll", function() {
+    const logo = document.querySelector(".logo");
+    if (window.scrollY > 50) { 
+      logo.classList.add("shrink");
+    } else {
+      logo.classList.remove("shrink");
+    }
+  });
+     
+  </script>
+
+</body>
+</html>
